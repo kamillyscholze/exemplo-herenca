@@ -1,11 +1,11 @@
-import modelos.Animal;
-import modelos.Cachorro;
-import modelos.Gato;
+import modelos.Veiculo;
+import modelos.Moto;
+import modelos.Carro;
 
 public class App {
     public static void main(String[] args) throws Exception {
 
-        Cachorro cachorro = new Cachorro("Nelson", "vira-lata", 1);
+        Veiculo veiculo = new Veiculo(null, null, null);
         Gato gato = new Gato();
 
         // System.out.println(cachorro.toString());
